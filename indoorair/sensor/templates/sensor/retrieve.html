@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IndoorAir | Sensor Details</title>
+</head>
+<body>
+    <script>
+        {% include "sensor/retrieve.js" %}
+    </script>
+
+    <h1>Retrieve Instrument</h1>
+    <p>
+    ID:
+    <input id="id" name="id" type="text" ></input>
+    </p>
+    <p>
+    Name:
+    <input id="name" name="name" type="text" ></input>
+    </p>
+
+    <p>
+    <button type="button" onclick="onBackClick()">Back</button>
+
+    </p>
+
+    <p>
+    <button type = button onclick = "onRetrieveProfileClick();">Retrieve data</button>
+  </p>
+
+</body>
+</html>
