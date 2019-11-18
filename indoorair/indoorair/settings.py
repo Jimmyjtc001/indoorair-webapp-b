@@ -32,10 +32,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'sensor.apps.SensorConfig',
-    #'report.apps.ReportConfig',
-    #'profilebyjimmy.apps.ProfilebyjimmyConfig',
+    'report.apps.ReportConfig',
+    'profilebyjimmy.apps.ProfilebyjimmyConfig',
     'instrument.apps.InstrumentConfig',
-    #'foundations.apps.FoundationsConfig',
+    'foundations.apps.FoundationsConfig',
     'dashboard.apps.DashboardConfig',
     'gateway.apps.GatewayConfig',
     'homepage.apps.HomepageConfig',
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    #'corsheaders',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
